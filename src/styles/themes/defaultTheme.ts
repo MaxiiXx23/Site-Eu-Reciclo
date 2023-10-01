@@ -37,6 +37,7 @@ export const defaultTheme = {
   fontSize: {
     'text-base': '1rem',
     'text-xl': '1.25rem',
+    'text-2xl': '1.5rem',
     'text-5xl': '3rem',
   },
 } as const

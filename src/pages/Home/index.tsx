@@ -1,4 +1,5 @@
-import { Header } from '@/components/Header'
+import { DeviceMobile } from '@phosphor-icons/react'
+
 import {
   CardLeft,
   CardRight,
@@ -14,14 +15,13 @@ import {
 
 import SplashApp from '@/assets/imagens/Image.svg'
 import ImageIcons from '@/assets/imagens/Icons.svg'
-import { DeviceMobile } from '@phosphor-icons/react'
+
 import { Button } from '@/components/Button'
 import { Footer } from '@/components/Footer'
 
 export function Home() {
   return (
     <ContainerMain>
-      <Header />
       <ContainerSection>
         <WrapperTitle>
           <Title>Junte-se a nós à ajudar o nosso lindo planeta Terra</Title>

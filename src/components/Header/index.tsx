@@ -10,8 +10,8 @@ export function Header() {
       <NavList>
         <OptionNav to="/">Home</OptionNav>
         <OptionNav to="/">Como funciona</OptionNav>
-        <OptionNav to="/">Baixe o App</OptionNav>
-        <OptionNav to="/">Quem somos</OptionNav>
+        <OptionNav to="/baixe-o-app">Baixe o App</OptionNav>
+        <OptionNav to="/quem-somos">Quem somos</OptionNav>
       </NavList>
     </ContainerHeader>
   )
