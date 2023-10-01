@@ -17,7 +17,6 @@ import SplashApp from '@/assets/imagens/Image.svg'
 import ImageIcons from '@/assets/imagens/Icons.svg'
 
 import { Button } from '@/components/Button'
-import { Footer } from '@/components/Footer'
 
 export function Home() {
   return (
@@ -61,7 +60,6 @@ export function Home() {
           <Button to="/" text="Saiba como o aplicativo funciona" />
         </ContainerSubInfo>
       </ContainerSection>
-      <Footer />
     </ContainerMain>
   )
 }

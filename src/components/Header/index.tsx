@@ -9,7 +9,7 @@ export function Header() {
       </Logo>
       <NavList>
         <OptionNav to="/">Home</OptionNav>
-        <OptionNav to="/">Como funciona</OptionNav>
+        <OptionNav to="/como-funciona">Como funciona</OptionNav>
         <OptionNav to="/baixe-o-app">Baixe o App</OptionNav>
         <OptionNav to="/quem-somos">Quem somos</OptionNav>
       </NavList>
