@@ -13,7 +13,14 @@ import {
 } from './styles'
 
 import ImageHowWork from '@/assets/imagens/ImageHowWork.svg'
-import ImageHowWorking from '@/assets/imagens/ImageExplainWorking.svg'
+import ImageHowWorking1 from '@/assets/imagens/ImageColeta1.svg'
+import ImageHowWorking2 from '@/assets/imagens/ImageColeta02.svg'
+import ImageHowWorking3 from '@/assets/imagens/ImageColeta3.svg'
+import ImageHowWorking4 from '@/assets/imagens/ImageRegister.svg'
+import ImageHowWorking5 from '@/assets/imagens/ImageColeta04.svg'
+import ImageHowWorking6 from '@/assets/imagens/ImageColeta05.svg'
+import ImageHowWorking7 from '@/assets/imagens/ImageColeta07.svg'
+import ImageHowWorking8 from '@/assets/imagens/ImageColeta08.svg'
 
 export function HowWork() {
   return (
@@ -91,7 +98,7 @@ export function HowWork() {
               consiga ir até você.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking1}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -114,7 +121,7 @@ export function HowWork() {
               você.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking2}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -137,7 +144,7 @@ export function HowWork() {
               simples e segura.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking3}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -167,10 +174,10 @@ export function HowWork() {
               realizar um cadastro na aba “Coletor Indívidual”, ali você
               preencherá suas informações pessoais que serão validadas pelo
               nosso sistema. Essa validação trará maior credibilidade aos seus
-              serviços e seguraça ao seus clientes.
+              serviços e segurança ao seus clientes.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking4}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -191,7 +198,7 @@ export function HowWork() {
               confiança aos usuários.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking5}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -214,7 +221,7 @@ export function HowWork() {
               serviço.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking6}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -246,7 +253,7 @@ export function HowWork() {
               segurança.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking4}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -267,7 +274,7 @@ export function HowWork() {
               funcionário que prestaram o serviço de coleta.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking7}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />
@@ -289,7 +296,7 @@ export function HowWork() {
               empresa como colaborador serão avaliados pelo cliente.
             </p>
             <img
-              src={ImageHowWorking}
+              src={ImageHowWorking8}
               alt="Imagem ilustrativa"
               title="Imagem ilustrativa do app"
             />

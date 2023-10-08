@@ -1,6 +1,6 @@
 import { ContainerInfo, ContainerMain, ContainerSection, Title } from './styles'
 
-import ImageLogo from '@/assets/imagens/ImageLogo.svg'
+import ImageLogo from '@/assets/imagens/ImageAboutus.svg'
 
 export function AboutUs() {
   return (
