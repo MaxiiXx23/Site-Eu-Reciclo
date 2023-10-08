@@ -1,5 +1,5 @@
 ### Atividade Extensionista - UNINTER - 2023
-### ***Atividade Extensionista - EuReciclo***
+### ***Atividade Extensionista - EuReciclo(Site de divulgação do APP)***
 
 #### Sobre o desafio:
  * A Atividade Extensionista visa desenvolver uma solução tecnológica que ajude pessoas ou o mundo. O EuReciclo tem como objetivo ajudar a cidade na coleta de materiais recicláveis de forma simples e rápida, esse repositório é o site de divulgação do aplicativo mobile.
@@ -22,7 +22,7 @@
 
 ### Link vídeo do projeto no Youtube:
 
-<a href="https://youtu.be/StgjOfTgqFM" aria-label="Link Design Figma" target="_blank">
+<a href="https://youtu.be/NxV8_aiaqxk" aria-label="Link Design Figma" target="_blank">
 <img src="https://img.shields.io/badge/Youtube-b91c1c?style=for-the-badge&logo=youtube&logoColor=white" alt="Design Figma" align="center" />
 </a>
 
@@ -40,7 +40,7 @@
 
 1. Entre na pasta Site-Eu-Reciclo;
 
-3. use um dos comandos abaixo para rodar a aplicação:
+3. Use um dos comandos abaixo para rodar a aplicação:
 
 ```bash
 npm run dev
