@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+### Atividade Extensionista - UNINTER - 2023
+### ***Atividade Extensionista - EuReciclo***
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Sobre o desafio:
+ * A Atividade Extensionista visa desenvolver uma solução tecnológica que ajude pessoas ou o mundo. O EuReciclo tem como objetivo ajudar a cidade na coleta de materiais recicláveis de forma simples e rápida, esse repositório é o site de divulgação do aplicativo mobile.
 
-Currently, two official plugins are available:
+<img src="./assets/EuRecicloSite.png" alt="imagem site" title="Imagem EuReciclo" width="600px" height="300">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Principais tecnologias usadas no desenvolvimento:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* TypeScript
+* Vite
+* Styled-Components
 
-- Configure the top-level `parserOptions` property like this:
+### Bibliotecas em destaque:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+* react-router-dom
+* Styled-components
+* framer-motion
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### Link vídeo do projeto no Youtube:
+
+<a href="https://youtu.be/StgjOfTgqFM" aria-label="Link Design Figma" target="_blank">
+<img src="https://img.shields.io/badge/Youtube-b91c1c?style=for-the-badge&logo=youtube&logoColor=white" alt="Design Figma" align="center" />
+</a>
+
+### Portas da aplicação:
+
+- ***Front-end*** está rodando em: http://localhost:5173
+
+### Configuração do Front-end:
+
+1. Entre na pasta Site-Eu-Reciclo;
+2. Use o comando: ***yarn*** ou ***npm install/i*** para instalar os pacotes;
+
+
+### Passo-a-passo para rodar a aplicação:
+
+1. Entre na pasta Site-Eu-Reciclo;
+
+3. use um dos comandos abaixo para rodar a aplicação:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
