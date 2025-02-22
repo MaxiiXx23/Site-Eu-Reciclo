@@ -15,4 +15,9 @@ export const Container = styled.footer`
     font-weight: bold;
     font-size: ${({ theme }) => theme.fontSize['text-xl']};
   }
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+    font-size: ${({ theme }) => theme.fontSize['text-base']};
+  }
 `

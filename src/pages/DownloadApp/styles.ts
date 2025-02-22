@@ -14,12 +14,31 @@ export const ContainerMain = styled.main`
 export const Title = styled.h1`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize['text-5xl']};
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+    font-size: ${({ theme }) => theme.fontSize['text-2xl']};
+  }
+
+  @media ${({ theme }) => theme.device.mobileL} {
+    text-align: center;
+    font-size: ${({ theme }) => theme.fontSize['text-xl']};
+  }
 `
 export const ContainerSection = styled.section`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    flex-direction: column-reverse;
+
+    img {
+      width: 100%;
+      height: 50%;
+    }
+  }
 `
 
 export const ContainerInfos = styled.div`
@@ -53,6 +72,13 @@ export const SubContainerInfoBase = styled.div`
 
 export const SubContainerInfoText = styled(SubContainerInfoBase)`
   justify-content: flex-start;
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-right: 40px;
+  }
 `
 
 export const SubContainerInfoBtns = styled(SubContainerInfoBase)`
@@ -62,6 +88,12 @@ export const SubContainerInfoBtns = styled(SubContainerInfoBase)`
 export const TitleInfo = styled.h5`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize['text-xl']};
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+    width: 80%;
+    margin-left: 40px;
+  }
 `
 
 export const WrapperBtns = styled.div`

@@ -270,8 +270,7 @@ export function HowWork() {
             <p>
               Após o cadastro e dados serem validados, é a hora de preencher as
               informações da sua empresa no aplicativo, essas informações
-              ficarão visíveis aos clientes, assim como, informações dos seus
-              funcionário que prestaram o serviço de coleta.
+              ficarão visíveis aos coletores, assim, levando eles até você.
             </p>
             <img
               src={ImageHowWorking7}
@@ -290,10 +289,8 @@ export function HowWork() {
             }}
           >
             <p>
-              A única diferença entre Catador Indívidual e Empresa de Coleta é
-              que a empresa precisa informar as informações de seus
-              colaboradores(Catadores) que prestaram o serviço de coleta. Tanto
-              empresa como colaborador serão avaliados pelo cliente.
+              Entre em contato com Coletores e ofereça seus serviços e/ou
+              informe os valores dos materiais recicláveis que você compra.
             </p>
             <img
               src={ImageHowWorking8}

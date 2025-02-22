@@ -57,7 +57,7 @@ export function Home() {
             Conecte-se a diversos catadores individuais e empresas de materiais
             recicláveis de sua cidade!
           </SubInfo>
-          <Button to="/" text="Saiba como o aplicativo funciona" />
+          <Button to="/como-funciona" text="Saiba como o aplicativo funciona" />
         </ContainerSubInfo>
       </ContainerSection>
     </ContainerMain>

@@ -19,6 +19,10 @@ export const ContainerSection = styled.section`
 
   padding: 0 3.625rem;
   box-sizing: border-box;
+
+  @media ${({ theme }) => theme.device.laptopM} {
+    padding: 0 1rem;
+  }
 `
 
 export const WrapperTitle = styled.div`
@@ -32,6 +36,16 @@ export const WrapperTitle = styled.div`
 
 export const Title = styled.h1`
   font-size: ${({ theme }) => theme.fontSize['text-5xl']};
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+    font-size: ${({ theme }) => theme.fontSize['text-2xl']};
+  }
+
+  @media ${({ theme }) => theme.device.mobileL} {
+    text-align: center;
+    font-size: ${({ theme }) => theme.fontSize['text-xl']};
+  }
 `
 
 export const ContainerInfo = styled.div`
@@ -44,6 +58,10 @@ export const ContainerInfo = styled.div`
 `
 export const ImageApp = styled.img`
   z-index: -1;
+  @media ${({ theme }) => theme.device.mobileL} {
+    width: 80rem;
+    height: 40rem;
+  }
 `
 const Card = styled.div`
   width: 20.75rem;
@@ -87,4 +105,8 @@ export const ContainerSubInfo = styled.div`
 export const SubInfo = styled.p`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize['text-xl']};
+
+  @media ${({ theme }) => theme.device.tabletL} {
+    text-align: center;
+  }
 `
